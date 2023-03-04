@@ -5,10 +5,10 @@ A password based door locking system designed for a set of IDs and corresponding
 In the door lock, a screw mechanism driven by a servo motor is used to lock/unlock the door. An array of LEDs and a buzzer are used to indicate whether the entered IDs and passwords are accepted and a separate green LED is used to indicate the door suddenly opening if the kill switch is pressed.
 
 LED states:
-• Red LED – Incorrect ID or Password
-• Yellow LED – Correct ID (waiting for correct password)
-• Green LED – Access granted
-• Green LED in Unlocking system- suddenly opened from inside
+* Red LED – Incorrect ID or Password
+* Yellow LED – Correct ID (waiting for correct password)
+* Green LED – Access granted
+* Green LED in Unlocking system- suddenly opened from inside
 
 Buzzer will beep once if an incorrect ID or password is entered and will beep continuously when the system is frozen for 30 seconds.
 
